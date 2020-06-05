@@ -1,5 +1,5 @@
 ---
 # tasks file for mytest
 - name: run test command
-  ansible.builtin.shell:
+  shell:
     cmd: ls
